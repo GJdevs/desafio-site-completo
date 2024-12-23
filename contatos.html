@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .header {
+            display: flex;
+            align-items: center; /* Alinha verticalmente ao centro */
+        }
+        .imagem {
+            margin-right: 200px; /* Espaço entre a imagem e o texto */
+        }
+       
+      
+
+       
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+
+            <ul>
+                <li><a href="template.html"> Pagina inicial</a></li></ul>
+            </ul>
+            <ul>
+                <li><a href="sobre-a-clinica.html">Sobre a clinica</a></li>
+            </ul>
+            <ul>
+                <li><a href="horario.html">Horário de atendimento</a></li>
+            </ul>
+            <ul>
+                <li><a href="contatos.html">Contato</a></li>
+            </ul>
+            
+
+        </div>
+        
+
+        <div class="main">
+            <div class="header">
+                <img title="Logotipo" src="Dio-logo.png" width="200" height="150" class="imagem">
+               <H1> Clinica Médica Vida Longa </H1>
+            </div>
+    
+            <div class="content">
+                <h3>Contatos</h3>
+                <p><strong>Telefone Fixo:</strong> (11) 3456-7890 - <strong>Celular (WhatsApp):</strong> (11)98765-4321</p>
+                <p><strong>Email:</strong> Rua Alguma coisa de algum lugar, N°70 - CEP 11555-89</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.9348624537613!2d-46.33855323601361!3d-23.96504644589063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03b97cc7856f%3A0x3ff3e507b04bbc46!2sSantos%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1734639258631!5m2!1spt-BR!2sbr" width="400" height="300" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form name="contatos" >
+                    <br><br>
+                    <strong>Formulário de contato:</strong><br>
+                    Nome:<input type="text" name="name" /><br>
+                    E-mail:<input type="email" name="email" /><br>
+                    Assunto:<input type="text" name="subject" /><br>
+                    Mensagem:<textarea ></textarea>
+                     <button type="submit" onclick="alert('Enviado')">Enviar</button><button type="reset">Limpar</button>
+                    
+                </form>
+            </div>
+            
+    
+            <div class="footer"> 
+                <div class="footer-atendimento">
+                    <h3>Atendimento</h3>
+                    <p style="font-size: 15px;">Horário de atendimento:<br>
+                    08:00 às 20:00 -<br>
+                    <strong>Segunda a Sexta,</strong><br>
+                    09:00 às 15:00 -<br>
+                    <strong>Sabado</strong>,horário de Brasília<br>                    
+                    (Exceto domingo e feriados)</p>
+                    </div>
+                <div class = "footer-contatos">
+                    <h3>Contatos</h3>
+                    <a href="https://wa.me/5591999999999" target="_blank" title="Fale conosco no WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                
+                </div>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
